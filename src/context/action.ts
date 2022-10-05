@@ -1,0 +1,1 @@
+export const SET_EMPLOYEE_MAIL = "SET_EMPLOYEE_MAIL"

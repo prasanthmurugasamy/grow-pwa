@@ -6,19 +6,34 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "local": "next dev"
   },
   "dependencies": {
+    "@apollo/client": "^3.6.9",
+    "@firebase/app": "^0.7.33",
+    "antd": "^4.23.4",
+    "firebase": "^9.10.0",
+    "graphql": "^16.6.0",
+    "graphql-ws": "^5.11.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
     "next": "12.3.1",
+    "next-pwa": "^5.6.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "subscriptions-transport-ws": "^0.11.0"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.185",
     "@types/node": "18.7.23",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
+    "autoprefixer": "^10.4.12",
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1",
+    "postcss": "^8.4.17",
+    "tailwindcss": "^3.1.8",
     "typescript": "4.8.3"
   }
 }
